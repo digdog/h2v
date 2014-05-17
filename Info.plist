@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>digdog</string>
+	<key>Builder Version</key>
+	<string>10538.34.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>選字轉直排</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.github.digdog.h2v</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>h2vConvert</string>
+				<key>Identifier</key>
+				<string>h2vContextualMenuItem</string>
+				<key>Title</key>
+				<string>選字轉直排</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>Global.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>Popover.html</string>
+				<key>Height</key>
+				<real>170</real>
+				<key>Identifier</key>
+				<string>h2vPopover</string>
+				<key>Width</key>
+				<real>122</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>h2vToolbarItem</string>
+				<key>Image</key>
+				<string>Icon.png</string>
+				<key>Label</key>
+				<string>選字轉直排</string>
+				<key>Popover</key>
+				<string>h2vPopover</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>GetSelectionText.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>先選字，按右鍵，轉直排。</string>
+	<key>DeveloperIdentifier</key>
+	<string>7H95LG2S93</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://h2v.github.io/update.plist</string>
+	<key>Website</key>
+	<string>http://h2v.github.io</string>
+</dict>
+</plist>
