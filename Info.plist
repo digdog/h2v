@@ -85,8 +85,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://h2v.github.io/update.plist</string>
+	<string>http://digdog.github.io/h2v/update.plist</string>
 	<key>Website</key>
-	<string>http://h2v.github.io</string>
+	<string>http://digdog.github.io/h2v/</string>
 </dict>
 </plist>
